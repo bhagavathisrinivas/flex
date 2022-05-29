@@ -1,0 +1,51 @@
+/* Body-Structure */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* section Header */
+
+.containet {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  outline: 2px solid black;
+}
+.containet h1{
+    font-size: 30px;
+}
+
+/* section About */
+
+    
+.about {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about h1 {
+  font-size: 40px;
+}
+.about p {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.img-ward {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 300px;
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
+  max-height: 65%;
+  max-width: 65%;
+  min-height: 20%;
+  min-width: 20%;
+}
+
+
